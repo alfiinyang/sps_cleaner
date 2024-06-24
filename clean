@@ -1,3 +1,0 @@
-#!/bin/sh
-cd /usr/local/bin/coord_cleaner
-./sps_exe.py "$@"

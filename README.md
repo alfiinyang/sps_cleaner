@@ -1,2 +1,2 @@
-# sps_coord_cleaner
+# sps_cleaner
 SPS dataset cleaner

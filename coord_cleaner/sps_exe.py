@@ -16,7 +16,7 @@ def main():
     clean_data_body = clean.d_trimmer(clean_data_body, min_row= 70)
     head.extend(clean.deduplicator(clean_data_body))
 
-    spsc.to_file(head, file_name, file_path)
+    clean.to_file(head, file_name, file_path)
 
 if __name__ == '__main__':
     main()

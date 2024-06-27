@@ -4,7 +4,7 @@ import sps_cleaner as spsc
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(description='Clean a file or file path.')
+    parser = argparse.ArgumentParser(description='Clean a 3D marine SPS file.')
     parser.add_argument('file_path', type=str, help='The path to the file to be cleaned')
     args = parser.parse_args()
 
